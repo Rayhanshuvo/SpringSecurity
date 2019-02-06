@@ -5,7 +5,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 public class StudentController {
-
 	//Controller
 	@RequestMapping("/")
 	public String home() {
