@@ -8,7 +8,7 @@ public class StudentController {
 	//Controller
 	@RequestMapping("/")
 	public String home() {
-		
+	System.out.println();	
 		return "home.jsp";
 	}
 }
